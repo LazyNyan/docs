@@ -8,6 +8,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'nyako.cat',
+			favicon: '/favicon.png',
 			social: [{ icon: 'seti:audio', label: 'Music Overlay', href: 'https://music.nyako.cat' }, { icon: 'discord', label: 'Discord', href: 'https://discord.gg/PNKh96vcyG' }, { icon: 'github', label: 'GitHub', href: 'https://github.com/LazyNyan/docs' }],
 			sidebar: [
 				{
