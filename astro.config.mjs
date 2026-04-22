@@ -4,6 +4,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: "https://lazynyan.github.io/",
+	base: "/docs",
 	integrations: [
 		starlight({
 			title: 'nyako.cat',

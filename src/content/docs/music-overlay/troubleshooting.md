@@ -24,7 +24,7 @@ Tokens *should* auto-refresh, but if it stops working you can try this:
 - Double-check the host and port match what Pear Desktop shows.
 - If you run OBS and Pear Desktop on different machines, use the LAN IP for the machine running pear (not 127.0.0.1) and make sure the port isn't behind a firewall.
 - When you click **"Request Authorization"**, switch to Pear Desktop and click **"Allow"** if you're prompted to
-- Keep the app open when you're using it 
+- Keep the app open when you're using it
 
 ## The widget looks wrong / wrong size in OBS
 
@@ -56,5 +56,5 @@ If authorization is disabled in the API server plugin, you won't get a prompt fo
 If not, make sure:
 
 - you clicked **"Request Authorization"** on the setup page first
-- the prompt isn't hidden behind other windows you have open 
+- the prompt isn't hidden behind other windows you have open
 - you try restarting Pear Desktop
