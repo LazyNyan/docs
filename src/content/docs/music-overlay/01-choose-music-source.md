@@ -14,7 +14,6 @@ Depending on your music source, you may need to use a third-party app or website
 | Soundcloud | Official API* *or* [Last.fm](https://last.fm) API w/ [Web Scrobbler](https://webscrobbler.com/) |
 | All other sites | [Last.fm](https://last.fm) API w/ [Web Scrobbler](https://webscrobbler.com/) |
 
-
 :::tip[Did you know?]
 You can connect *any* music app or website that can scrobble to Last.fm!
 :::
