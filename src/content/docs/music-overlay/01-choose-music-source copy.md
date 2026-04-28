@@ -11,10 +11,9 @@ Depending on your music source, you may need to use a third-party app or website
 | Spotify (without Premium) | [Last.fm](https://last.fm) API key |
 | YouTube Music | [Pear Desktop](https://github.com/pear-devs/pear-desktop) |
 | Apple Music | [Cider](https://cider.sh/downloads/client) Version 2 (paid, $3 USD) |
-| Soundcloud | [Last.fm](https://last.fm) API w/ [Web Scrobbler](https://webscrobbler.com/) |
+| Soundcloud | Official API* *or* [Last.fm](https://last.fm) API w/ [Web Scrobbler](https://webscrobbler.com/) |
 | All other sites | [Last.fm](https://last.fm) API w/ [Web Scrobbler](https://webscrobbler.com/) |
 
-See [this FAQ](https://docs.nyako.cat/music-overlay/ts-faq/#on-soundcloud-integration) about SoundCloud integration.
 
 :::tip[Did you know?]
 You can connect *any* music app or website that can scrobble to Last.fm!

@@ -58,3 +58,9 @@ If not, make sure:
 - you clicked **"Request Authorization"** on the setup page first
 - the prompt isn't hidden behind other windows you have open
 - you try restarting Pear Desktop
+
+## If all else fails
+
+Make a post in the support channel in our Discord.
+
+join the [Discord](https://discord.gg/PNKh96vcyG) and i'll respond whenever available.

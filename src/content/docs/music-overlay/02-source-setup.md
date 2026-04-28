@@ -83,3 +83,30 @@ Last.fm scrobbling has some limitations compared to a direct source connection: 
 If you don't have Spotify Premium but still want to use Spotify as your source, you can scrobble it through Last.fm:
 
 Go to [Last.fm Settings → Applications](https://www.last.fm/settings/applications) and click **Connect** next to **Spotify Scrobbling**, then follow the Last.fm steps above.
+
+## SoundCloud
+
+This will cover the first-party SoundCloud API implementation. For scrobbling support use last.fm.
+
+I keep writing documentation before sleeping so this will be as brief as possible while still being a guide:
+
+In order to display your songs from SoundCloud directly, we make use of the undocumented "internal" API used by the soundcloud website application.
+This requires us to use the same credentials the official website uses, so this section will walk you through how to obtain your own account's OAuth token.
+
+:::danger[Don't be an idiot!]
+In case it wasn't already obvious, this token gives access to your *entire* account. As such you should not paste it anywhere you don't trust (how ironic for me to be saying this...)
+
+Widget operations and token exchanges are kept inside your browser locally whenever possible (exceptions being stinky sites that don't allow CORS, -ahem- Spotify and SoundCloud.)
+
+With that being said: **by continuing, you accept these risks.**
+:::
+
+- Make sure you are signed in to your SoundCloud account on soundcloud.com
+- Open the Developer Tools in your browser:
+  - This can be accessed by Right Click -> Inspect (or inspect element)
+  - Or by going to your browser's options menu and finding something along the lines of "developer tools"
+  - Or by using the keys `CTRL + SHIFT + I` (`CMD + OPTION + I` on tim apple os) or `F12` depending on your browser/operating system
+  - If you use firefox or another browser its pretty similar you can figure it out
+- Access your `oauth_token` cookie, whichever way is easier for you:
+  - Find the `Application` tab along the top (may need to click `...`) -> Cookies -> soundcloud.com -> search for oauth_token
+  - OR take it from the `Network` tab inside any request to `soundcloud.com`, omitting "OAuth" (we add this prefix ourselves)
