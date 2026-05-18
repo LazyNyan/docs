@@ -15,6 +15,7 @@ The preview on the left updates as you change stuff
 | Inverse slim | Slim but wider and song title comes first |
 | Full-sized | More room for text and the only style that actually shows the duration as text |
 | Transparent w/ album art (aka Classic) | Shows album artwork, track name, and artist name |
+| Accented Glass | Another take on the classic design inspired by some other widgets designs |
 
 When there are more than two artists, the collaborating ones get combined into a number beside the primary artist (e.g. Alan Walker +3)
 

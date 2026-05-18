@@ -17,4 +17,6 @@ In your streaming software, add a new browser source and paste the URL into it
 
 - Set width/height: try **400×100** (slim), **400×150** (full), or **400×200** (transparent) as a baseline and adjust as needed
 
+(tbh these are prob not even close anymore, you can figure it out tho)
+
 Move the widget wherever you want and adjust the options if you need to. Each time you change something you need to copy the new link!

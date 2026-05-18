@@ -4,7 +4,7 @@ description: Start using the music overlay
 ---
 
 :::caution[Important!]
-If a prompt appears asking to access apps on your device, you must click allow. If you don't, the widget can't connect to local apps like YouTube Music/Cider.
+If a prompt appears asking to access apps on your device, you must click allow. If you don't, the widget can't connect to local apps like YouTube Music/Cider etc.
 ![permission prompt](../../../assets/images/aod.png)
 :::
 
@@ -110,3 +110,12 @@ With that being said: **by continuing, you accept these risks.**
 - Access your `oauth_token` cookie, whichever way is easier for you:
   - Find the `Application` tab along the top (may need to click `...`) -> Cookies -> soundcloud.com -> search for oauth_token
   - OR take it from the `Network` tab inside any request to `soundcloud.com`, omitting "OAuth" (we add this prefix ourselves)
+
+## PreMid
+
+To use PreMid, enable Activity Forwarding in the extension's settings.
+Set the Forwarding URL to the `PreMid API Endpoint` link you copied on the setup page.
+
+**This is not the Widget Link!** their extension will not know what to do with our widget lmao
+
+![PreMid Forwarding Setting](../../../assets/images/premid-forwarding.png)
