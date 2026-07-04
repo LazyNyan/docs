@@ -1,6 +1,8 @@
 ---
 title: Change widget appearance
 description: Customize the look of your music overlay widget
+sidebar:
+  order: 4
 ---
 
 Once you connect, you can now use the **"Widget appearance"** section on the setup page to change the look of your widget!

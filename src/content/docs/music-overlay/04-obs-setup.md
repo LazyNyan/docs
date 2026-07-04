@@ -1,6 +1,8 @@
 ---
 title: Show widget in OBS
 description: Add your music overlay widget as a browser source in OBS
+sidebar:
+  order: 5
 ---
 
 ## Step 1 — Copy your widget URL

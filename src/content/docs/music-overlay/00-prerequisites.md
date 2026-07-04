@@ -1,6 +1,8 @@
 ---
 title: Before you start
 description: Things you need to start using the music overlay
+sidebar:
+  order: 0
 ---
 
 You will need to make sure you have/can access a few things before using the overlay!

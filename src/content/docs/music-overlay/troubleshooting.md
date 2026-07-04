@@ -11,14 +11,23 @@ Make sure you selected the right source, that you allowed apps on device in your
 - **YouTube Music:** Make sure Pear Desktop is open and the HTTP API plugin is enabled.
 - Try right-clicking the browser source in OBS and selecting **"Refresh"**
 
-## Spotify says "token expired" or stops working
+## Spotify: "token expired" or stops working
 
 Tokens *should* auto-refresh, but if it stops working you can try this:
 
 1. Click the red warning icon at the bottom of the sidebar, press the **"Reset authorization"** button, then re-authorize.
 2. Copy the new widget URL and update your OBS browser source.
 
-## YouTube Music / Pear Desktop won't connect
+### Update (2026-07)
+Spotify now expires refresh tokens after 6 months. This requires the you, the user, to re-authorize your link to get a fresh new set of tokens every time.
+
+## Spotify: Can't create a Developer App
+
+Spotify requires you, the app owner, to have Premium and limits you to 1 dev app. You can share one app with multiple things (this, songify, amuse, etc.) but you might encounter rate limits.
+
+If this affects you too much consider migrating your library elsewhere like YouTube Music.
+
+## YouTube: The widget won't connect
 
 - Make sure Pear Desktop is running and the HTTP API plugin is enabled.
 - Double-check the host and port match what Pear Desktop shows.
@@ -43,17 +52,11 @@ if these sizes dont work for you then play with it until it does!
 
 Settings are included with the URL. If you change any options you should copy the new widget URL and update it in your browser source properties.
 
-## Can't create a Spotify Developer App
-
-Spotify requires you, the app owner, to have Premium and limits you to 1 dev app. You can share one app with multiple things (this, songify, amuse, etc.) but you might encounter rate limits.
-
-If this affects you too much consider migrating your library elsewhere like YouTube Music.
-
 ## The authorization prompt in Pear Desktop doesn't appear
 
 If authorization is disabled in the API server plugin, you won't get a prompt for it.
 
-If not, make sure:
+If it is, make sure:
 
 - you clicked **"Request Authorization"** on the setup page first
 - the prompt isn't hidden behind other windows you have open
