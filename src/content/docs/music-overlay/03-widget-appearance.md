@@ -15,9 +15,11 @@ The preview on the left updates as you change stuff
 | --- | --- |
 | Slim | Small overlay with scrolling artist and song title |
 | Inverse slim | Slim but wider and song title comes first |
-| Full-sized | More room for text and the only style that actually shows the duration as text |
-| Transparent w/ album art (aka Classic) | Shows album artwork, track name, and artist name |
+| Fullsize | More room for text and the only style that actually shows the duration as text |
+| Transparent (aka Classic) | Shows album artwork, track name, and artist name |
 | Accented Glass | Another take on the classic design inspired by some other widgets designs |
+
+I recommend inverted slim, transparent, or accented glass
 
 When there are more than two artists, the collaborating ones get combined into a number beside the primary artist (e.g. Alan Walker +3)
 
@@ -25,10 +27,9 @@ When there are more than two artists, the collaborating ones get combined into a
 
 | Animation | Description |
 | --- | --- |
-| Fade in/out | Fades in/out with a small boost |
+| Fade in/out | Fades in/out |
 | Slide from left | Slides in from the left edge |
 | Slide from right | Slides in from the right edge |
-| Drop from top | Slides down from the top... possibly the least used option but still okay |
 
 ## 👁️ Visibility
 

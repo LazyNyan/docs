@@ -7,7 +7,8 @@ export default defineConfig({
   site: "https://docs.nyako.cat/",
   integrations: [
     starlight({
-      title: "nyako.cat",
+      title: "nyako docs",
+      logo: { src: "/public/favicon.png" },
       favicon: "/favicon.png",
       social: [
         {
@@ -30,6 +31,10 @@ export default defineConfig({
         {
           label: "Nyan's Music Overlay",
           items: [{ autogenerate: { directory: "music-overlay" } }],
+        },
+        {
+          label: "Chat Playlist",
+          items: [{ autogenerate: { directory: "chat-playlist" } }],
         },
       ],
     }),
