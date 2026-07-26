@@ -33,8 +33,8 @@ export default defineConfig({
           items: [{ autogenerate: { directory: "music-overlay" } }],
         },
         {
-          label: "Chat Playlist",
-          items: [{ autogenerate: { directory: "chat-playlist" } }],
+          label: "Other stuff",
+          items: [{ autogenerate: { directory: "other-stuff" } }],
         },
       ],
     }),
