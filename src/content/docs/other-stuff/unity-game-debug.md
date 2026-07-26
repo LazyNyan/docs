@@ -9,7 +9,7 @@ Hi! this is a mirror of my [github gist](https://gist.github.com/nyakowint/1743c
 
 # Step-by-step guide turning a Unity game's Release build into a Debug build for modding
 
-:::info[btw...]
+:::note[btw...]
 > This guide was written regarding **Unity 2022.x**, but the process seems to be the same for 2017-2019 and newer versions including Unity 6 (as of July 2026). 
 :::
 
