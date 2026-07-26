@@ -9,8 +9,9 @@ Hi! this is a mirror of my [github gist](https://gist.github.com/nyakowint/1743c
 
 # Step-by-step guide turning a Unity game's Release build into a Debug build for modding
 
-> [!NOTE]
+:::info[btw...]
 > This guide was written regarding **Unity 2022.x**, but the process seems to be the same for 2017-2019 and newer versions including Unity 6 (as of July 2026). 
+:::
 
 Sources are included at the footer of this doc in case I dont explain something well or at all.
 
@@ -85,7 +86,7 @@ You can now move your plugin as well as the new `mdb` file to your `BepInEx/plug
 You can follow the original guides to use a debugger or simply test your mod as usual and you should have a less headache-inducing stacktrace now.
 
 
-### Sources
+## Sources
 
 https://docs.bepinex.dev/articles/advanced/debug/plugins_dnSpy.html
 
